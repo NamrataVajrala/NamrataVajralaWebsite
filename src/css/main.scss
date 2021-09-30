@@ -1,1 +1,375 @@
 /* Your SCSS here. */
+
+// experience back block
+.d1 {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color: #703b05;
+    z-index: 1;
+    animation-name: intro_box;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+  
+  .d2 {
+    animation-name: intro_box;
+    position: absolute;
+    top: 50px;
+    opacity: 1;
+    margin:auto;
+    left: 10%;
+    right: 7%;
+    height: 400px;
+    background-color: #703b05;
+    z-index: 1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes intro_box {
+    0%   {background-color: #703b05;}
+    25%  {background-color: #944a00;}
+  }
+
+//   fontawesome icons
+  .far, .fab {
+    display: inline-block;
+    color:grey;
+    font-size: 25px;
+    left:20%;
+    text-align:center;
+    width: 100%;
+    &:hover {
+        color:rgb(214, 92, 11);
+    }
+  }
+
+//   experience section css
+  .d {
+    width: 60%;
+    margin:auto;
+    color:rgb(56, 54, 54);
+  }
+
+  h1 {
+    font-size: 40px;
+    font-family: "eurostile", sans-serif;
+  }
+  .expText {
+    // margin-left: 1em
+    text-align: center;
+  }
+  .companyText{
+    text-align: center;
+    font-size: 19px;
+    color:rgb(116, 65, 7);
+  }
+  .toolsContent {
+    text-align: center;
+    font-size: 15px;
+    color:rgb(173, 96, 8);
+    margin-left:2em;
+    margin-right:2em;
+  }
+  h3 {
+    font-size: 30px;
+    text-align: center;
+    font-family: "eurostile", sans-serif;
+}
+
+  .txt {
+    text-align: center;
+    font-family: "eurostile", sans-serif;
+    color:rgb(56, 54, 54);
+  }
+
+  .txt2 {
+    text-align: center;
+    font-family:"verdana", sans-serif;
+    font-size: 18px;
+    color: #b6aeae;
+  }
+
+  .txt3 {
+    text-align: center;
+    font-family:"eurostile", sans-serif;
+    font-size: 25px;
+    color: #ffffffe8;
+  }
+
+  .i {
+    width: 100%;
+    height: 150px;
+  }
+  .hero {
+    opacity: 0.5;
+    width:100%;
+    height:150px;
+}
+
+// fixed footer
+.fixed-footer{
+    bottom: 0;
+    position:fixed;
+    width: 100%;
+    height:50px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #cea57c2c;
+    z-index: 3;
+}
+
+// spacing blocks
+.medium-space-between {
+    width: 100%;
+    height:100px;
+}
+.smallest-space-between {
+    width: 100%;
+    height:3px;
+}
+.smaller-space-between {
+    width: 100%;
+    height:15px;
+}
+.small-space-between {
+    width: 100%;
+    height:30px;
+}
+.big-space-between {
+    width: 100%;
+    height:150px;
+}
+.e {
+    margin:auto;
+    width:60%;
+}
+.large-space-between {
+    width: 100%;
+    height:200px;
+}
+
+// nav bar css
+#header {
+    background-color: #68350115; 
+    color: black;
+    text-align: center; 
+    height:110px;
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+    overflow: hidden;
+    transition: 0.2s;
+    z-index: 3;
+  }
+
+#header ul {
+    list-style-type: none;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li {
+	float: left;
+	a {
+		display: block;
+		color: rgb(255, 255, 255);
+		text-align: center;
+		padding: 6px 30px 15px 30px;
+		// color: rgb(197, 115, 48);
+        color:black;
+		height: 50px;
+		text-decoration: none;
+		font-size: 25px;
+		transition: 0.2s;
+	}
+}
+
+  li.move {
+    background-color: rgb(250, 246, 246);
+    transition: 0.3 ease background-color;
+    border-radius: 17px;
+  }
+
+//   home css
+  
+  .girl {
+      width: 170px;
+      height: 170px;
+      margin:auto;
+      display: block;
+  }
+  
+.icon2 {
+    display: inline-block;
+    margin:auto;
+}
+.icon1 {
+    display: inline-block;
+    margin:auto;
+    width:49%;
+}
+.icon3 {
+    display: inline-block;
+    margin:auto;
+    width:45%;
+}
+
+// experience section icons css
+.internIcon1 {
+    width: 60px;
+      height: 60px;
+      margin:auto;
+      display: block;
+}
+.internIcon2 {
+    width: 70px;
+      height: 55px;
+      margin:auto;
+      display: block;
+}
+.internIcon3 {
+    width: 66px;
+      height: 66px;
+      margin:auto;
+      display: block;
+}
+.resume li{
+    line-height: 1.5;
+    margin-right:1em;
+    list-style-type: circle;
+    // text-align: center;
+}
+.columnl,.columnr,.columnm   {
+    background-color: #fcf7f7;
+    display: inline-block;
+    border-radius: 25px;
+    margin:auto;
+    min-width:10px;
+    overflow: scroll;
+    padding: 10px;
+    height: 750px;
+    width: 30%;
+  } 
+
+//   modal css
+
+.modalButtonStyle {
+    text-align: center;
+	background-size: 100%;
+	object-fit: cover;
+	width: 25%;
+	height: 330px;
+	display: inline-block;
+	border-radius: 8px;
+	border: 1px;
+	&:hover {
+		opacity: 0.5;
+	}
+}
+  .button1 {
+	background-image: url("/assets/Crossyroad.png");
+    @extend .modalButtonStyle;
+    margin-left: 12%;
+}
+.button2 {
+	background-image: url("/assets/graph.png");
+    @extend .modalButtonStyle;
+	left: 10%;
+}
+.button3 {
+	background-image: url("/assets/covax.png");
+    @extend .modalButtonStyle;
+	left: 10%;
+}
+
+
+  .modalBox,.modalBox2,.modalBox3 {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: scroll;
+    background-color: rgba(0,0,0,0.4); 
+  }
+  .modalDesign,.modalDesign2,.modalDesign3 {
+    width: 68%;
+    background-color: #ecebeb;
+    margin: auto;
+    padding: 40px 50px 40px 50px;
+  }
+
+  .close,.close2,.close3 {
+	float: right;
+	font-size: 30px;
+	font-weight: bold;
+	&:hover {
+		color: rgb(109, 64, 5);
+		cursor: pointer;
+	}
+	&:focus {
+		color: #000;
+		cursor: pointer;
+	}
+}
+
+// slideshow/carousel css
+
+.slideText {
+    color:rgb(255, 255, 255);
+    font-size: 23px;
+    font-family: Helvetica, sans-serif;
+}
+.slideshow {
+    --curr: 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .carousel-button {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 1;
+	border-radius: 70%;
+	background-color: #703a0500;
+	border: none;
+	font-size: 2rem;
+	&:hover {
+		color: rgba(0, 0, 0, 0.5);
+	}
+}
+  
+  .carousel-button_next {
+    right: 0;
+  }
+  
+  .slides {
+    display: flex;
+    transition:ease-in 0.6s;
+    transform: translateX(calc(-100% * var(--curr)));
+  }
+  
+  .slide1 {
+    flex: 0 0 100%;
+    background-color: rgb(236, 204, 163);
+    height:150px;
+    line-height: 90px;
+    text-align: center;
+    background-size: 100%;
+	object-fit: cover;
+  }
+  .slide2 {
+    flex: 0 0 100%;
+    background-color: rgba(230, 181, 116, 0.479);
+    text-align: center;
+    line-height: 90px;
+    height:250px;
+  }

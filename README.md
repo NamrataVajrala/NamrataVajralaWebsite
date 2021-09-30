@@ -87,3 +87,14 @@ git remote add origin git@gitlab.com:<your-gitlab-username>/mp1.git
 4. `.gitlab-ci.yml` file automatically makes a Gitlab CI pipeline run to deploy your code. After the pipeline finishes, your site should be live at `https://<your-gitlab-username>.gitlab.io/mp1`. **It may take up to 10-30 minutes for the site to go live after the first deployment.**
 5. Invite `uiucwp` as a collaborator. This should be as a **reporter**, not as a *guest*, otherwise we can't see your code.
 6. Fill out and submit the form [here](https://forms.gle/HqdYTDvJ6V9CphkK8)
+
+## sources
+1. https://stackoverflow.com/questions/27671709/position-buttons-next-to-each-other-in-the-center-of-page/37333329 
+2. https://stackoverflow.com/questions/8865458/how-do-i-vertically-center-text-with-css 
+3. https://www.w3schools.com/howto/howto_css_three_columns.asp 
+4. https://fontawesome.com/v5.15/icons?d=gallery&p=2&q=mail 
+5. https://www.w3schools.com/jsref/prop_win_pagexoffset.asp 
+6. https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_navbar_shrink_scroll
+7. https://webdesign.tutsplus.com/tutorials/smooth-scrolling-vanilla-javascript--cms-35165
+8. https://www.w3schools.com/howto/howto_css_modals.asp
+9. https://www.w3schools.com/css/css3_animations.asp
