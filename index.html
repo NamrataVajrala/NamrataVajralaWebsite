@@ -1,0 +1,322 @@
+<!-- sources:
+1. https://stackoverflow.com/questions/27671709/position-buttons-next-to-each-other-in-the-center-of-page/37333329 
+2. https://stackoverflow.com/questions/8865458/how-do-i-vertically-center-text-with-css 
+3. https://www.w3schools.com/howto/howto_css_three_columns.asp 
+4. https://fontawesome.com/v5.15/icons?d=gallery&p=2&q=mail 
+5. https://www.w3schools.com/jsref/prop_win_pagexoffset.asp 
+6. https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_navbar_shrink_scroll
+7. https://webdesign.tutsplus.com/tutorials/smooth-scrolling-vanilla-javascript--cms-35165
+8. https://www.w3schools.com/howto/howto_css_modals.asp
+9. https://www.w3schools.com/css/css3_animations.asp -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NamrataVajralaWebsite</title>
+        <script src="https://kit.fontawesome.com/512a69cbe5.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <nav>
+        <div id="header">
+            <!-- nav bar section -->
+        <ul>
+            <li class="home"><a href="#home" class = "x" id = "headerText1"><p class="pp">Home</p></a></li>
+            <li class="skillss"><a href="#skillss"  class = "x" id = "headerText5"><p class="pp">About</p></a></li>
+            <li class="experience"><a href="#experience"  class = "x" id = "headerText2"><p class="pp">Skills & Experience</p></a></li>
+            <li class="project"><a href="#project"  class = "x" id = "headerText4"><p class="pp">Projects</p></a></li>
+            <li class="activities"><a href="#activities"  class = "x" id = "headerText3"><p class="pp"></p></a></li>
+        </ul>
+        </div>
+    </nav>
+    </div>
+
+    <!-- home page section -->
+    <section id="home">
+        <div class = "big-space-between"></div>
+        <h1 class="textBig" data-text="Back-end & Front-end Developer">Back-end & Front-end Developer </h1>
+        <div class = "smaller-space-between"></div>
+        <p class="txt"> I learn and I code and I love it. <p>
+            <div class = "small-space-between"></div>
+        <img src="3dcf8078485f3233892f.png" class= "girl">
+        <div class = "small-space-between"></div>
+        <p class="txt">Welcome to my website! Scroll to find out more :)</p>
+        <div class = "large-space-between"></div>
+        <div class = "smaller-space-between"></div>
+    </section>
+
+    <!-- experience page section -->
+    
+        <div class="d1">
+            <div class="d2">
+                <div class="d">
+
+                <div class = "large-space-between">
+                <p class="txt3">Hi I'm Namrata Vajrala</p>
+                <p class="txt2">I’m a Computer Science major at the University of Illinois at Urbana-Champaign minoring in Applied Statistics and I’m eager to delve into the tech industry to apply skills to real-world products and make a meaningful impact while learning new software tools.</p>
+                <p class="txt3"> <b>Nice to meet you:)</b></p>
+                <div class="small-space-between"></div>
+                <!-- <div class = "large-space-between"></div>
+                <div class = "large-space-between"></div> -->
+                <!-- </div> -->
+            </div>
+        </div>
+        <!-- <div class="d1"> -->
+            <!-- <div class="d2"> -->
+                <!-- </div> -->
+                <!-- </div> -->
+                <!-- <div class = "large-space-between"></div>
+                <div class = "large-space-between"></div>
+                <div class="skills"></div> -->
+                <!-- <div class = "large-space-between"></div>
+                <div class = "large-space-between"></div> -->
+        <div class = "medium-space-between"></div>
+        
+        <div class = "small-space-between"></div>
+        <div class = "medium-space-between"></div>
+        <div class="skillCol"><p class="txt4"><B> Here's a little about me:</B></p></div>
+        <div class = "medium-space-between"></div>
+        <section id="skillss">
+        <h1>Skills</h1>
+        <div class="skillbox1">C++</div>
+        <div class="skillbox2">Python</div>
+        <div class="skillbox3">Java</div>
+        <div class="skillbox5">Docker</div>
+        <div class="skillbox3">Kubernetes</div>
+        <div class="skillbox2">HTML</div>
+        <div class="skillbox5">CSS</div>
+        <div class="skillbox1">Selenium</div>
+        <div class="skillbox2">Rest Assured</div>
+        <div class="skillbox1">API</div>
+        <div class="skillbox4">Swagger</div>
+        <div class="skillbox5">Android</div>
+        <div class="skillbox2">SQLite</div>
+        <div class="skillbox4">Git</div>
+        <div class="skillbox3">Verilog</div>
+        <div class="skillbox4">MIPS</div>
+        </section>
+        <!-- <div class = "small-space-between"></div> -->
+        <div class = "medium-space-between"></div>
+        <!-- <div class="skillCol">
+        <p class="skillsText">C++, Python, Java, Docker, Kubernetes, HTML, CSS, Selenium, Rest Assured, API, Swagger, Android, SQLite, Git, Verilog, MIPS </p>
+    </div> -->
+    <div class = "small-space-between"></div>
+    <div class = "small-space-between"></div>
+    <section id="experience">
+    
+                <!-- <div class="small-space-between"></div> -->
+                <h1>Recent Experience</h1>
+                <section id="experience">
+             <div class="smaller-space-between"></div>
+                <div class="row">
+                    <span>
+                    <div class="columnl">
+                        <div class="smaller-space-between"></div>
+                        <img src="fc3c9445cde7ae123119.webp" class= "internIcon1">
+                      <h2 class = "expText">Infrastructure SWE Intern</h2>
+                      <h2 class = "companyText">Applovin</h2>
+                      <div class="small-space-between"></div>
+                      <div>
+                      <ul class="resume">
+                          <li>Generated a sampling profiler tool, flame graphs, in a Kubernetes environment and debugged through methods to implement C/C++
+                            support for existing flame graph codebases.</li>
+                            <li>Replicated deployments and flame graph processes from minikube to the Google Kubernetes Engine to allow for access on the cloud</li>
+                            <li> Integrated a HTTP library, llhttp, to Applovin’s front-end server code as it provided for a 156% speed increase than the previous
+                                http_parser library</li>
+                                <li>Minimized memory allocations for server code and optimized functions by editing C++ code and creating python scripts<br></li>
+                      </ul>
+                      </div>
+                      <div class="small-space-between"></div>
+                      <p class="companyText"> .</p>
+                      <p class="companyText">Tools</p> 
+                      <p class="toolsContent">C++, Python, Kubernetes, Docker, Google Kubernetes Engine (GKE)</p> 
+                      
+                    </div>
+                    
+                    <div class="columnm" >
+                        <div class="smaller-space-between"></div>
+                        <img src="data:image/png;base64,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" class= "internIcon2">
+                      <h2 class = "expText">Researcher</h2>
+                      <h2 class = "companyText">Univeristy of Illinois at Urbana-Champaign</h2>
+                      <div class="small-space-between"></div>
+                      <ul class="resume">
+                          <li>Developed and optimized code in ConText, an open-source tool for the integrated analysis of text and network data</li>
+                          <li>Read documentation for 3rd part libraries and applied it to the ConText codebase</li>
+                          <li> Used software to find the impact of language use on social networks through natural language processing & network analysis libraries</li>
+                      </ul>
+                      <p class="companyText"> .</p>
+                      <p class="companyText">Tools</p> 
+                      <p class="toolsContent">Java, Natural Language Processing Libraries</p> 
+                    </div>
+                    <div class="columnr">
+                        <div class="smallest-space-between"></div>
+                        <img src="2f55a4677e397c07a000.png" class= "internIcon3">
+                        <h2 class = "expText">Software Engineer Intern</h2>
+                        <h2 class = "companyText">CDK Global</h2>
+                        <div class="small-space-between"></div>
+                        <ul class="resume">
+                            <li> Integrated API Automation with the REST Assured library, Swagger, and Java to prevent and troubleshoot API errors in-app workflow</li>
+                            <li>Programmed using Java and Selenium in TestNG framework to automate & debug 20+ scripts for testing CDK's Drive flex app</li>
+                            <li>Maximized efficiency and speed for each test by greater than 20% by optimizing previously written Java code</li>
+                            <li>Identified and troubleshot three defects in application workflow to create ease of use for end-user</li>
+                        </ul>
+                        <p class="companyText"> .</p>
+                      <p class="companyText">Tools</p> 
+                      <p class="toolsContent">Java, Selinium, TestNG framework, REST Assured Library</p> 
+                      </div>
+                </span>
+                  </div>
+                </div>
+            </div> 
+        </div>
+        <div class = "large-space-between"></div>
+        <div class = "large-space-between"></div> 
+        <div class = "large-space-between"></div> 
+        <div class = "large-space-between"></div>
+        <div class = "large-space-between"></div>
+        <div class = "large-space-between"></div>
+        <div class = "large-space-between"></div>
+        <div class = "large-space-between"></div>
+        <div class = "large-space-between"></div>
+        <div class = "medium-space-between"></div>
+    </section>
+        <section id="project">
+        <div class = "medium-space-between"></div>
+    </div>
+        
+        
+        <!-- projects section -->
+    
+
+        
+        <h3>My Recent Work</h3>
+        <button id="myBtn" class=button1 > </button>
+
+        <div id="firstModal" class="modalBox">
+
+        <div class="modalDesign">
+            <span class="close">&times;</span>
+            <ul class="resume">
+                <li>Developed backend architecture, UI, and test suite of a multiplayer game from ground-up using C++, Cinder, SQLite3, GFlags, Catch-2</li>
+                <li>Features of the game: Database storage for leaderboard scores, multiple players and levels with obstacles, pleasant GUI and sound</li>
+            </ul>
+            <div class = "medium-space-between"></div>
+        </div>
+
+        </div>
+        <button id="myBtn2" class=button2 > </button>
+
+        <div id="secondModal" class="modalBox2">
+
+        <div class="modalDesign2">
+            <span class="close2">&times;</span>
+            <ul class="resume"> 
+                <li>Implemented algorithms (BFS, Dijkstra’s algorithm, Graph Coloring) to connect a large database of subreddit links together in C++</li>
+                <li>Designed a directed and weighted graph based on subreddit properties to find the minimum path between two links</li>
+            </ul>
+            <div class = "medium-space-between"></div>
+            
+            <video width="320" height="320" controls> <source src="5e0aa1f54cbe53a8bf59.mp4" type="video/mp4"> </video>
+        </div>
+
+        </div>
+
+        <button id="myBtn3" class=button3 > </button>
+
+        <div id="thirdModal" class="modalBox3">
+
+        <div class="modalDesign3">
+            <span class="close3">&times;</span>
+            <ul class="resume">
+                <li>Implemented a vaccine tracker to track the statistics of vaccines taken by people around America.</li>
+                <li>The application is a user-interface that allows for people to input their vaccine experiences to communicate about side-effects and other factors. The app organizes all the data collected in a database, makes calculations based off of it, and presents the user with specified categories of the data.</li>
+            </ul>
+            <div class = "medium-space-between"></div>
+        </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- activities section -->
+    <section id="activities">
+        <div class = "medium-space-between"></div>
+        <div class = "small-space-between"></div>
+        <div class = "small-space-between"></div>
+         <h3>Other</h3>
+
+
+              <div class="slideshow" id="slideshowI">
+
+                <div class="carousel-buttons">
+                  <button id="prevBtn" class="carousel-button carousel-button_previous">
+                    <span class="fas fa-chevron-circle-left"></span>
+                  </button>
+
+                  <button id="nextBtn" class="carousel-button carousel-button_next">
+                    <span class="fas fa-chevron-circle-right"></span>
+                  </button>
+                </div>
+
+                <div id="slideContents" class="slides">
+
+                  <div class="slide1">
+                      <p class="slideText">Worked as a robotics mentor  and tutored students in Math and Computer Science</p>
+                    <div class="hero">
+                        <img src="fa5a81d06da2dce12c6e.jpeg" class= "i">
+                      </div>
+                  </div>
+
+                  <div class="slide2">
+                    <p class="slideText">Enjoy going to hackathons and collaborating with a team to produce an impactful project</p>
+                    <div class="hero">
+                        <img src="1b840dd5c7259ed3da5d.png" class= "i">
+                      </div>
+                    
+                  </div>
+
+                </div>
+
+              </div> 
+
+          <!-- <div class = "medium-space-between"></div>
+
+        <div class = "medium-space-between"></div> -->
+        <!-- <div class="hero">
+            <img src="assets/endimg2.png" class= "i">
+          </div> -->
+          <!-- footer section -->
+        <div class="fixed-footer">
+
+              <div class="smaller-space-between"></div>
+
+              <div class="icon1">
+              <a href="https://www.linkedin.com/in/namratavajrala/"> <span>
+              <i class="fab fa-linkedin"></i>
+              </span></a>
+              </div>
+
+            <div class="icon2">
+            <a href="https://github.com/NamrataVajrala"> <i class="fab fa-github"></i></a>
+            </div>
+
+            <div class="icon3">
+                <a href="mailto:namrata.v.26@gmail.com"><i class="far fa-paper-plane"></i></a>
+            </div>
+
+            <div class="small-space-between"></div>
+        </div>
+
+
+        
+    </section>
+
+
+    <script defer src="bundle.js"></script></body>
+</html>
